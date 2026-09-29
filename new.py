@@ -92,10 +92,116 @@
 # else:
 #     print("The number is negative or zero.")
 
-import time
-timestamp = time.time()
-print("Current timestamp:", timestamp)  # This will print the current timestamp in seconds since the epoch (January 1, 1970).
-timestamp1 = time.localtime(timestamp)
-print("Current local time:", timestamp1)  # This will print the current local time as
-timestamp2 = time.strftime("%Y-%m-%d %H:%M:%S", timestamp1)
-print("Current local time in formatted string:", timestamp2)  # This will print the current
+# import time
+# timestamp = time.time()
+# print("Current timestamp:", timestamp)  # This will print the current timestamp in seconds since the epoch (January 1, 1970).
+# timestamp1 = time.localtime(timestamp)
+# print("Current local time:", timestamp1)  # This will print the current local time as
+# timestamp2 = time.strftime("%Y-%m-%d %H:%M:%S", timestamp1)
+# print("Current local time in formatted string:", timestamp2)  # This will print the current
+
+# x = 10
+
+# match x:
+#     case 1:
+#         print("x is 1")
+#     case 2:
+#         print("x is 2")
+#     case 10:
+#         print("x is 10")
+#     case _:
+#         print("x is something else")
+
+# for i in range(5):
+#     print(i)  # This will print the numbers from 0 to 4.
+
+# for i in para:
+#     print(i)  # This will print each character in the multi-line string on a new line.
+
+# i = 0
+# while(i < 3):
+#     print(i)  # This will print the numbers from 0 to 2.
+    # i += 1
+
+# while True:
+#     user_input = input("Enter 'exit' to quit: ")
+#     if user_input.lower() == 'exit':
+#         break  # This will exit the loop if the user enters 'exit'.
+#     else:
+#         print("You entered:", user_input)  # This will print whatever the user entered.
+# else:
+#     print("This will not be printed because the loop was exited with a break statement.")
+
+# for i in range(12):
+#     if i == 10:
+#         break
+#     print("Current number:", i + 1)  # This will print the numbers from 1 to 10.
+
+# print("\n\nLoop has been exited.\n\n")  # This will print after the loop has been exited.
+
+# for i in range(12):
+#     if i == 10:
+#         continue
+#     print("Current number:", i + 1)  # This will print the numbers from 1 to 12, skipping 11.
+
+# def calculateGmean(a, b):
+#     mean = (a * b) / (a + b)
+#     print("The geometric mean of", a, "and", b, "is:", mean)
+#     return mean
+
+# a = 10
+# b = 20
+# result = calculateGmean(a, b)  # This will call the function and print the
+
+# def functionName(a, b):
+#     pass  # This is a placeholder for the function body. It does nothing and is used to indicate that the function is not yet implemented.
+
+# def average(a = 10, b = 20):
+#     print("The average of", a, "and", b, "is:", (a + b) / 2)
+
+# average(10, 20)  # This will call the function and print the average of 10 and 20.
+# average()  # This will call the function with default values and print the average of 10 and 20.
+# average(b = 20 , a = 10)  # This will call the function with keyword arguments and print the average of 10 and 20.
+
+# def average(*numbers):
+#     total = 0
+#     for number in numbers:
+#         total += number
+#     print("The average of", numbers, "is:", total / len(numbers))
+#     return total / len(numbers)
+
+# average(10, 20, 30)  # This will call the function and print the average of 10, 20, and 30.
+# c = average(10, 20, 30)  # This will call the function and print the average of 10, 20, and 30.
+# print("The average is:", c)  # This will print the average returned by the function.
+
+# def average(**kwargs):
+#     total = 0
+#     for key, value in kwargs.items():
+#         total += value
+#     print("The average of", kwargs, "is:", total / len(kwargs))
+
+# average(a=10, b=20, c=30)  # This will call the function and print the average of 10, 20, and 30.
+
+# l = [3, 5, 6, 7, 8, 9]
+# # print(l)
+# # print(type(l))
+# print(l[-3])  # This will print the first element of the list, which is 3.
+# print(l[len(l) - 3])  # This will also print the first element of the list, which is 3.
+# print(l[3-3]) # This will also print the first element of the list, which is 3.
+# print(l[0])  # This will also print the first element of the list, which is 3.
+# print(l[:])
+# print(l[1:2])  # This will print the second element of the list, which is 5.
+# print(l[1:6:2])  # This will print the second element of the list, which is 5.
+
+# if 5 in l:
+#     print("5 is in the list")  # This will print because 5 is in the list.
+# # same thing can be done with strings, tuples, and dictionaries. For example:
+# s = "Hello"
+# if "H" in s:
+#     print("H is in the string")  # This will print because H is in the string.
+
+
+lst = [i for i in range(10)]
+print(lst)  # This will print the list of numbers from 0 to 9.
+lst = [i for i in range(10) if i % 2 == 0]
+print(lst)  # This will print the list of numbers from 0 to 9.
