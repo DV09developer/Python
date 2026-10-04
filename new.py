@@ -201,7 +201,61 @@
 #     print("H is in the string")  # This will print because H is in the string.
 
 
-lst = [i for i in range(10)]
-print(lst)  # This will print the list of numbers from 0 to 9.
-lst = [i for i in range(10) if i % 2 == 0]
-print(lst)  # This will print the list of numbers from 0 to 9.
+# lst = [i for i in range(10)]
+# print(lst)  # This will print the list of numbers from 0 to 9.
+# lst = [i for i in range(10) if i % 2 == 0]
+# print(lst)  # This will print the list of numbers from 0 to 9.
+
+# l = [11, 9, 1, 2, 3, 4, 5]
+# l.append(6)  # This will add 6 to the end of the list.
+# print(l)  # This will print the list [1, 2, 3,
+# l.reverse()  # This will reverse the list.
+# print(l)  # This will print the reversed list [6, 5, 4
+# l.sort()  # This will sort the list in ascending order.
+# print(l)  # This will print the sorted list [1, 2, 3
+# l.sort(reverse=True)  # This will sort the list in descending order.
+# print(l)  # This will print the sorted list in descending order [6, 5, 4
+# print(l.index(3))  # This will print the index of the first occurrence of 3 in the list, which is 2.
+# print(l.count(3))  # This will print the number of occurrences of 3 in the list, which is 1.
+# m = l
+# m[0] = 0
+# print(l)  # This will print the list [0, 9, 1, 2, 3, 4, 5] because m is a reference to l.
+# m = l.copy()  # This will create a copy of the list l and assign it to m.
+# m[0] = 0
+# print(l)  # This will print the list [11, 9, 1, 2, 3, 4, 5] because m is a copy of l.
+# print(m)  # This will print the list [0, 9, 1, 2, 3, 4, 5] because m is a copy of l.
+
+# l.insert(1, 99)
+# print(l)
+
+# l.extend([7, 8, 9])
+# print(l)  # This will print the list [11, 9, 1, 2, 3, 4, 5, 7, 8, 9] because the list [7, 8, 9] has been added to the end of l.
+
+# m = [1, 2, 3]
+# l.extend(m)
+# print(l)  # This will print the list [11, 9, 1, 2, 3, 4, 5, 1, 2, 3] because the list m has been added to the end of l.
+# k = l + m  # This will create a new list k that is the concatenation of l and m.
+# print(k)  # This will print the list [11, 9, 1, 2, 3, 4, 5, 1, 2, 3] because k is the concatenation of l and m.
+# print(l)  # This will print the list [11, 9, 1, 2, 3, 4, 5] because l has not been modified.
+
+# tup = (1,2,3,4,5)
+# print(type(tup), tup)  # This will print the type of the variable tup, which is <class 'tuple'>, and the value of tup, which is (1, 2, 3).
+# tup = (1)
+# print(type(tup), tup)  # This will print the type of the variable tup, which is <class 'tuple'>, and the value of tup, which is (1,).
+# tup = (1,)
+# print(type(tup), tup)  # This will print the type of the variable tup, which is <class 'tuple'>, and the value of tup, which is (1,).
+# tup = (True)
+# print(type(tup), tup)  # This will print the type of the variable tup, which is <class 'tuple'>, and the value of tup, which is (1,).
+# tup = ("This is string")
+# print(type(tup), tup)  # This will print the type of the variable tup, which is <class 'tuple'>, and the value of tup, which is (1,).
+# print(tup[0])  # This will print the first element of the tuple, which is 1.
+# print(tup[1])  # This will print the second element of the tuple, which is 2.
+# print(tup[2])  # This will print the third element of the tuple, which is 3.
+
+# if 1 in tup:
+#     print("1 is in the tuple")  # This will print because 1 is in the tuple.
+
+# tup2 = tup[1:4]
+# print(tup2)  # This will print the tuple (2, 3, 4) because it is a slice of tup from index 1 to 3.
+# print(tup)
+
