@@ -259,3 +259,16 @@
 # print(tup2)  # This will print the tuple (2, 3, 4) because it is a slice of tup from index 1 to 3.
 # print(tup)
 
+# countries = ("India", "USA", "UK", "Canada", "Australia")
+# countries2 = ("Germany", "France", "Italy", "Spain", "Portugal")
+# MyCountries = countries + countries2
+# print(MyCountries)  # This will print the tuple ('India', 'USA', 'UK
+
+tup1 = (1, 2, 3, 4, 5, 3, 2, 3)
+# res = tup1.count(3)  # This will return the number of occurrences of 3 in the tuple, which is 3.
+res = tup1.index(3)  # This will return the index of the first occurrence of 3 in the tuple, which is 2.
+print(res)
+res = tup1.index(3, 4, 8)  # This will return the index of the first occurrence of 3 in the tuple, which is 2.
+print(res)  # This will print the number of occurrences of 3 in the tuple,
+res = len(tup1)  # This will return the length of the tuple, which is 8.
+print(res)  # This will print the length of the tuple, which is 8.
