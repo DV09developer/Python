@@ -264,11 +264,36 @@
 # MyCountries = countries + countries2
 # print(MyCountries)  # This will print the tuple ('India', 'USA', 'UK
 
-tup1 = (1, 2, 3, 4, 5, 3, 2, 3)
+# tup1 = (1, 2, 3, 4, 5, 3, 2, 3)
 # res = tup1.count(3)  # This will return the number of occurrences of 3 in the tuple, which is 3.
-res = tup1.index(3)  # This will return the index of the first occurrence of 3 in the tuple, which is 2.
-print(res)
-res = tup1.index(3, 4, 8)  # This will return the index of the first occurrence of 3 in the tuple, which is 2.
-print(res)  # This will print the number of occurrences of 3 in the tuple,
-res = len(tup1)  # This will return the length of the tuple, which is 8.
-print(res)  # This will print the length of the tuple, which is 8.
+# res = tup1.index(3)  # This will return the index of the first occurrence of 3 in the tuple, which is 2.
+# print(res)
+# res = tup1.index(3, 4, 8)  # This will return the index of the first occurrence of 3 in the tuple, which is 2.
+# print(res)  # This will print the number of occurrences of 3 in the tuple,
+# res = len(tup1)  # This will return the length of the tuple, which is 8.
+# print(res)  # This will print the length of the tuple, which is 8.
+
+# res = sum(tup1)  # This will return the sum of all the elements in the tuple, which is 23.
+# print(res)  # This will print the sum of all the elements in the tuple, which
+
+# res = max(tup1)  # This will return the maximum element in the tuple, which is 5.
+# print(res)  # This will print the maximum element in the tuple, which is 5
+
+# res = min(tup1)  # This will return the minimum element in the tuple, which is 1.
+# print(res)  # This will print the minimum element in the tuple, which is 1
+
+# res = sorted(tup1)  # This will return a new list containing all the elements in the tuple, sorted in ascending order.
+# print(res)  # This will print the sorted list [1, 2, 2, 3, 3, 3, 4, 5]
+
+# res = sorted(tup1, reverse=True)  # This will return a new list containing all the elements in the tuple, sorted in descending order.
+# print(res)  # This will print the sorted list [5, 4, 3, 3, 3, 2, 2, 1]
+
+# res = reversed(tup1)  # This will return a new iterator containing all the elements in the tuple, in reverse order.
+# print(list(res))  # This will print the reversed list [3, 2, 3, 5, 4, 3, 2, 1]
+# print(res)  # This will print the reversed iterator object <list_reverseiterator object at 0x7f8c8c8c8c8c>
+
+# res = tuple(reversed(tup1))  # This will return a new tuple containing all the elements in the tuple, in reverse order.
+# print(res)  # This will print the reversed tuple (3, 2, 3, 5, 4, 3, 2, 1)
+
+# res = list(tup1)  # This will return a new list containing all the elements in the tuple.
+# print(res)  # This will print the list [1, 2, 3, 4, 5, 3, 2, 3]
