@@ -264,7 +264,7 @@
 # MyCountries = countries + countries2
 # print(MyCountries)  # This will print the tuple ('India', 'USA', 'UK
 
-# tup1 = (1, 2, 3, 4, 5, 3, 2, 3)
+tup1 = (1, 2, 3, 4, 5, 3, 2, 3)
 # res = tup1.count(3)  # This will return the number of occurrences of 3 in the tuple, which is 3.
 # res = tup1.index(3)  # This will return the index of the first occurrence of 3 in the tuple, which is 2.
 # print(res)
@@ -297,3 +297,6 @@
 
 # res = list(tup1)  # This will return a new list containing all the elements in the tuple.
 # print(res)  # This will print the list [1, 2, 3, 4, 5, 3, 2, 3]
+
+res = tuple(list(tup1))  # This will return a new tuple containing all the elements in the list.
+print(res)  # This will print the tuple (1, 2, 3, 4, 5, 3, 2, 3)
