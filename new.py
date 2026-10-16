@@ -301,4 +301,4 @@
 # res = tuple(list(tup1))  # This will return a new tuple containing all the elements in the list.
 # print(res)  # This will print the tuple (1, 2, 3, 4, 5, 3, 2, 3)
 
-# Nothing changed
+print("Nothing changed")
